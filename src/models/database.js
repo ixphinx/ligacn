@@ -7,6 +7,9 @@ const Data = new Schema({
     ipart:String,
     iparc:String,
     
+    /*----- Divisionales-------*/
+    divisional: String,
+    
     /*---- Cuentas de Usuarios ----*/
     user: String,
     password: String,
