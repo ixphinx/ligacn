@@ -65,6 +65,14 @@ const Data = new Schema({
     parbitro: String,
     pobservaciones: String,
     pcancha: String,
+    
+    // Estadisticas ///////////////////////////////////////////////////////
+    epartidoid: String,
+    eequipo: String,
+    ejugador: String,
+    egoles: String,
+    eamarillas: String,
+    erojas: String,
 
     
     
