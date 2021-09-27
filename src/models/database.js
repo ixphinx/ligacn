@@ -6,6 +6,9 @@ const Data = new Schema({
     /*----- Divisionales-------*/
     divisional: String,
     
+    //// Temporada ///////////////////////////////////
+    temporada: String,
+    
     /*---- Cuentas de Usuarios ----*/
     user: String,
     password: String,
