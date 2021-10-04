@@ -9,7 +9,7 @@ const cors = require('cors');
 app.set('port', process.env.PORT || 3000);
 
 //database
-const URI = 'mongodb+srv://admin:huevon33@database-aizqn.gcp.mongodb.net/leaguetyt?retryWrites=true&w=majority';
+const URI = 'mongodb+srv://admin:huevon33@database-aizqn.gcp.mongodb.net/ligacn?retryWrites=true&w=majority';
 mongoose.connect(URI, {useNewUrlParser:true, useUnifiedTopology:true})
     .then(db => console.log('DB connected'))
     .catch(err => console.log(err));   
@@ -28,5 +28,5 @@ app.use('/api', require('../src/routes/index'));
 
 //server
 app.listen(app.get('port'), ()=>{
-    console.log('Servidor 33legaue-webmain en puerto ', app.get('port'));
+    console.log('Servidor LigaCN-webmain en puerto ', app.get('port'));
 })
